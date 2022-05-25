@@ -7,11 +7,58 @@
     <title>QUALITY EDUCATION | Target</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
+
   $(document).ready(function(){
-    $("#menuButton").click(function(){
-      $("#menu").slideToggle();
+    $("#41Button").click(function(){
+      $("#41").slideToggle();
     }); 
   });
+  $(document).ready(function(){
+    $("#42Button").click(function(){
+      $("#42").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#43Button").click(function(){
+      $("#43").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#44Button").click(function(){
+      $("#44").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#45Button").click(function(){
+      $("#45").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#46Button").click(function(){
+      $("#46").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#47Button").click(function(){
+      $("#47").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#48Button").click(function(){
+      $("#48").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#49Button").click(function(){
+      $("#49").slideToggle();
+    }); 
+  });
+  $(document).ready(function(){
+    $("#4aButton").click(function(){
+      $("#4a").slideToggle();
+    }); 
+  });
+
 </script>
 </head>
 
@@ -148,7 +195,6 @@
     }
 
     .target {
-        border: 2px solid black;
         text-align: center;
         background-color: white;
         font-size: 18px;
@@ -161,44 +207,87 @@
         background-color: red;
     }
 
+    .b {
+        font-size: 16px;
+        top: 30px;
+        max-width: 30%;
+        min-width: 60px;
+        color: black;
+        background-color: rgba(0, 0, 0, 0);
+        border-style: none;
+        user-select: none;
+        padding-bottom: 0.5%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-bottom: 3px solid rgba(255, 0, 0, 0.70); 
+    }
+
+    .b:hover {
+        color: darkgray;
+        border-bottom-color: rgba(94, 255, 0, 0.7);
+        animation-duration: 0.5s;
+        animation-name: colorpan;
+        transform: translateY(5px);
+    }
+
 </style>
 
 <body>
     <div>
-        <button id="menuButton">Menu</button>
-        <div id="menu" style="display:none;">
-          <p>Home</p>
-          <p>Dove siamo</p>
-          <p>Chi siamo</p>
-          <p>Contatti</p>
-          <p>Social</p>
-    </div>
-        <div class="col-xs-2" style="float: left; border: 1px dashed red"></div>
+        <div class="col-xs-2" style="float: left; border: 1px solid red"></div>
         <div class="col-xs-8 target">
-            <p style="color: black; font-size: 30px; background-image: linear-gradient(to top right, #FFFFFF 5%, red 30%, darkred 100%);">The Target</p>
+            <p style="color: red; font-size: 30px; ">The Target</p>
             <div class="link">
                 <br><h3 style="font-size: 16px">ISTRUZIONE PRIMARIA E SECONDARIA GRATUITA</h3>
-                <a href="index.html">4.1</a><br>
+                <button class="b" id="41Button">4.1</button>
+                <div id="41" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">UGUALE ACCESSO ALLE QUALITA' DELL'ISTRUZIONE PRE-PRIMARIA</h3>
-                <a href="index.html">4.2</a><br>
+                <button class="b" id="42Button">4.2</button>
+                <div id="42" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">UGUALE ACCESSO ALL'ISTRUZIONE TECNICA, PROFESSIONALE E SUPERIORE CONVENIENTE</h3>
-                <a href="index.html">4.3</a><br>
+                <button class="b" id="43Button">4.3</button>
+                <div id="43" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">AUMENTARE IL NUMERO DI PERSONE CON COMPETENZE RILEVANTI PER IL SUCCESSO FINANZIARIO</h3>
-                <a href="index.html">4.4</a><br>
+                <button class="b" id="44Button">4.4</button>
+                <div id="44" style="display:none;">
+                    <p>Home</p>
+                </div>                
                 <br><h3 style="font-size: 16px">ELIMINARE OGNI DISCRIMINAZIONE NELL'ISTRUZIONE</h3>
-                <a href="index.html">4.5</a><br>
+                <button class="b" id="45Button">4.5</button>
+                <div id="45" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">ALFABETIZZAZIONE E CALCOLO UNIVERSALE</h3>
-                <a href="index.html">4.6</a><br>
+                <button class="b" id="46Button">4.6</button>
+                <div id="46" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">EDUCAZIONE ALLO SVILUPPO SOSTENIBILE E ALLA CITTADINANZA GLOBALE</h3>
-                <a href="index.html">4.7</a><br>
+                <button class="b" id="47Button">4.7</button>
+                <div id="47" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">COSTRUISCI E AGGIORNA SCUOLE INCLUSI E SICURE</h3>
-                <a href="index.html">4.8</a><br>
+                <button class="b" id="48Button">4.8</button>
+                <div id="48" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">ESPANDERE BORSE DI STUDIO DI ISTRUZIONE PER PAESI IN VIA DI SVILUPPO</h3>
-                <a href="index.html">4.9</a><br>
+                <button class="b" id="49Button">4.9</button>
+                <div id="49" style="display:none;">
+                    <p>Home</p>
+                </div>
                 <br><h3 style="font-size: 16px">AUMENTARE L'OFFERTA DI INSEGNANTI QUALIFICATI NEI PAESI IN VIA DI SVILUPPO</h3>
-                <a href="index.html">4.a</a><br>
+                <button class="b" id="4aButton">4.a</button>
+                <div id="4a" style="display:none;">
+                    <p>Home</p>
+                </div>
             </div>
-            <p style="font-size: 22px; background-color: lightgray">Tutti possono contribuire a garantire il raggiungimento degli obiettivi globali. Utilizzare questi dieci obiettivi per creare azioni per garantire un'istruzione di qualità.</p>
         </div>
         <div class="col-xs-2" style="float: right"></div>
     </div>
