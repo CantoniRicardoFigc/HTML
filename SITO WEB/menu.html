@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUALITY EDUCATION | Target</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#menuButton").click(function(){
+      $("#menu").slideToggle();
+    }); 
+  });
+</script>
 </head>
 
 <style>
@@ -157,6 +165,14 @@
 
 <body>
     <div>
+        <button id="menuButton">Menu</button>
+        <div id="menu" style="display:none;">
+          <p>Home</p>
+          <p>Dove siamo</p>
+          <p>Chi siamo</p>
+          <p>Contatti</p>
+          <p>Social</p>
+    </div>
         <div class="col-xs-2" style="float: left; border: 1px dashed red"></div>
         <div class="col-xs-8 target">
             <p style="color: black; font-size: 30px; background-image: linear-gradient(to top right, #FFFFFF 5%, red 30%, darkred 100%);">The Target</p>
