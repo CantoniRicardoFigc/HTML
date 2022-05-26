@@ -199,31 +199,32 @@
         background-color: white;
         font-size: 18px;
         margin-bottom: 10px;
-        padding: 5px;
+        padding-top: 10px;
+        margin-top:10px
     }
 
     body {
         text-align: center;
-        background-color: red;
+        background-color: #B20600;
     }
 
     .b {
-        font-size: 16px;
+        font-size: 18px;
         top: 30px;
         max-width: 30%;
         min-width: 60px;
-        color: black;
+        color: white;
         background-color: rgba(0, 0, 0, 0);
         border-style: none;
         user-select: none;
         padding-bottom: 0.5%;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        border-bottom: 3px solid rgba(255, 0, 0, 0.70); 
+        border-bottom: 3px solid rgba(255, 0, 0, 0.70);
     }
 
     .b:hover {
         color: darkgray;
-        border-bottom-color: black;
+        border-bottom-color: green;
         animation-duration: 0.5s;
         animation-name: colorpan;
         transform: translateY(5px);
@@ -233,7 +234,12 @@
 
 <body>
     <div>
-        <div class="col-xs-2" style="float: left; border: 1px solid red"></div>
+        <div class="col-xs-12 bottone">
+            <input type="button" class="b" value="target"/>
+            <input type="button" class="b" onclick="location.href='index.html'" value="home"/>
+            <input type="button" class="b" onclick="location.href='https://unric.org/it/agenda-2030/'" value="agenda"/>
+        </div>
+        <div class="col-xs-2" style="float: left; border: 1px solid #B20600"></div>
         <div class="col-xs-8 target">
             <a style="color: red; font-size: 30px;">The Target</a>
             <div class="link">
